@@ -6,7 +6,7 @@
     <title>Tienda Informática</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body ></body>
 
 <header>
     <h1>Mi Tienda Informática</h1>
@@ -17,36 +17,53 @@
     <a href="index.html">Inicio</a>
     <a href="catalogo.html">Catálogo de Productos</a>
     <a href="contacto.html">Contacto</a>
-    <a href="slider.html">Slider</a>
-    <a href="contenido.html">Contenido</a>
+    <a href="tarjeta.html">Tarjeta</a>
 
 </nav>
 
 <section>
     <h2>¿Quiénes Somos?</h2>
     <img src="imagenes/tienda.png" alt="tienda">
-    <p>Somos una tienda dedicada a la venta de productos informáticos de alta calidad, comprometidos con satisfacer 
-        las necesidades tecnológicas de nuestros clientes. Ofrecemos una amplia gama de productos que incluye laptops,
-        componentes de PC, accesorios y software, seleccionados cuidadosamente para garantizar su rendimiento y durabilidad.
-        Estamos siempre disponibles para ayudar a cada cliente a encontrar la solución ideal para sus requerimientos, 
-        ya sea para uso personal, académico o profesional. 
-        Creemos que la tecnología puede transformar vidas y estamos aquí para hacerlo posible.</p>
-    
-    <h2>Misión</h2>
-    <p>Nuestra misión es brindar tecnología de calidad que impulse la productividad y el entretenimiento de nuestros clientes. 
-        Nos esforzamos por ofrecer productos que no solo cumplan con los estándares más altos, sino que también se adapten a 
-        las necesidades específicas de cada usuario. A través de un compromiso constante con la innovación, buscamos mejorar 
-        la experiencia de nuestros clientes y ayudarles a alcanzar sus objetivos con herramientas tecnológicas efectivas y accesibles.</p>
-    
-    <h2>Visión</h2>
-    <p>Nuestra visión es ser líderes en el mercado de tecnología, siendo reconocidos por ofrecer las mejores soluciones para 
-        cada tipo de usuario. Aspiramos a expandir nuestra oferta de productos y servicios, donde cada cliente confíe en nosotros para 
-        satisfacer sus necesidades tecnológicas. A través de un enfoque centrado en el cliente y un compromiso con la calidad, 
-        nos proponemos crear un entorno donde la tecnología sea accesible y enriquecedora para todos.</p>
 
-    <h2>Valores</h2>
-    <p>En esta tienda le brindamos el mejor servicio a nuestros clientes y asi se sientan bienvenidos, y con confianza de
-        realizar compras en linea, creemos en el poder de la tecnología para transformar vidas.</p>
+    <div class="slider-container">
+        <h2 style="color:blue; padding:30px;">Slider automático con HTML & CSS.</h2>
+        <div class="slider-frame">
+            <ul>
+                <li><img src="img/f1.jpeg" alt=""></li>
+                <li><img src="img/f2.jpeg" alt=""></li>
+                <li><img src="img/f3.jpeg" alt=""></li>
+                <li><img src="img/f4.jpeg" alt=""></li>
+                <li><img src="img/f5.jpeg" alt=""></li>
+            </ul>
+        </div>
+    </div>
+
+    <section id="video">
+        <h2>Video Promocional</h2>
+        <video width="640" height="360" controls>
+            <source src="img/video_tienda.mp4" type="video/mp4">
+            Tu navegador no soporta la reproducción de videos.
+        </video>
+        <p>Descubre más sobre nosotros en este video promocional.</p>
+    </section>
+
+    <section id="gif">
+        <h2>¡Gift Tienda Informatica!</h2>
+        <div class="gif-container">
+            <img src="img/FILOSOFIA_TIENDA.gif" alt="Animación de bienvenida">
+        </div>
+        <p>Tienda Informatica.</p>
+    </section>
+
+    <section id="pdf">
+        <h2>PDF Interactivo</h2>
+        <p>Haz clic en el enlace para verlo.</p>
+        <a href="https://online.fliphtml5.com/gcwzv/sqte/" target="_blank" class="btn-pdf">Ver PDF Interactivo</a>
+    </section>
+
+    
+
+</br>
 
     <h2>Nuestras marcas</h2>
     <img src="imagenes/marcas.png" alt="marcas">
